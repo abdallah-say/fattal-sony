@@ -69,6 +69,7 @@
   background: linear-gradient(#040620, #021186);
   border-top: 8px solid white;
   box-shadow: 0px 0px 30px blue;
+  min-height: 500px;
 }
 
 .replacement {
@@ -79,16 +80,13 @@
   padding-left: 15%;
 }
 
-.replacement p {
+.p1,
+#p2 {
+  margin-top: 10%;
   color: white;
   font-family: "DINPRO-REGULAR", sans-serif;
+  font-size: 150%;
   text-align: center;
-}
-
-.replacement img {
-  width: 300px;
-  z-index: 0;
-  position: relative;
 }
 
 span {
@@ -97,20 +95,162 @@ span {
 }
 
 .p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(#040620, #021186);
   width: 50%;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
   position: relative;
-  z-index: 1;
-  box-shadow: 0px 30px 30px -30px blue, 0px -30px 30px -30px blue;
+  height: 133px;
+  padding-left: 10%;
+  margin-top: 10%;
+  box-shadow: 0px 40px 40px -40px blue, 0px -40px 40px -40px blue;
+}
+
+.p2 img {
+  width: 300px;
+  height: 600px;
+  z-index: 5;
+  position: absolute;
+  top: -140%;
+  left: -10%;
 }
 
 #p2 {
+  text-align: center;
   margin: 0;
   padding-top: 40px;
   padding-bottom: 40px;
   box-shadow: 0px 10px 10px -10px blue, 0px -10px 10px -10px blue;
+}
+
+.terms {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+#terms {
+  font-family: DINPRO-REGULAR, sans-serif;
+  color: white;
+}
+
+.scan {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+  width: 55%;
+  background: linear-gradient(#040620, #021186);
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  box-shadow: 0px 40px 40px -40px blue, 0px -40px 40px -40px blue;
+  margin-top: 15%;
+  min-height: 100px;
+}
+
+.scan img {
+  width: 500px;
+  height: 500px;
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  margin-top: 5%;
+}
+
+.scan.txt {
+  width: 30%;
+}
+
+.scan-txt p {
+  text-align: center;
+  font-family: DINPRO-REGULAR, sans-serif;
+  color: white;
+  width: 100%;
+  font-size: 150%;
+  padding-left: 150%;
+}
+
+.scan-txt span {
+  font-family: DINPRO-BOLD, sans-serif;
+}
+
+.warranty {
+  margin-top: 15%;
+}
+
+.warranty-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.warranty-form p {
+  font-family: DINPRO-BOLD, sans-serif;
+  color: white;
+  font-size: 200%;
+}
+
+.f1-content {
+  margin-top: 3%;
+  background: #f1f2f2;
+  border: 5px white solid;
+  box-shadow: 5px 5px 5px 1px blue;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.shadow {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10%;
+  box-shadow: 5px 5px 80px 1px blue;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.f1-txt {
+  background: linear-gradient(#040620, #021186);
+  width: 32%;
+  border-radius: 10px;
+}
+
+.f1-content p {
+  font-size: 80%;
+  padding: 3%;
+  font-family: DINPRO-REGULAR, sans-serif;
+}
+
+.f1-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.f1-content form label {
+  font-family: DINPRO-REGULAR, sans-serif;
+}
+.f1-content form select {
+  font-family: DINPRO-REGULAR, sans-serif;
+}
+.f1-content form input {
+  font-family: DINPRO-REGULAR, sans-serif;
+}
+
+#brand-menu,
+#category-menu,
+#serial {
+  width: 300px;
+  height: 25px;
 }
 
 /* Footer */
