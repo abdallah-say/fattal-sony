@@ -1,0 +1,13 @@
+@font-face {
+  font-family: DINPRO-BOLD;
+  src: url("/fonts/DINPro-Bold.ttf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: DINPRO-REGULAR;
+  src: url("/fonts/DINPro-Regular.otf");
+}
+@font-face {
+  font-family: DINPRO-BLACK;
+  src: url("/fonts/DINPro\ Black.otf");
+}

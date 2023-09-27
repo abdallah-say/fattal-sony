@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* upper banner */
+.banners-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  border-bottom: 5px solid white;
+  box-shadow: 0px 0px 30px blue;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+}
+
+/* Buttons */
+.btns-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btns-section p {
+  font-family: "DINPRO-BOLD", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+  color: #58595b;
+}
+
+.buttons img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.buttons figcaption {
+  font-family: "DINPRO-BOLD", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #58595b;
+  margin-top: 10px;
+}
+
+.buttons figure {
+  text-align: center;
+  margin: 15px 20px;
+}
+
+/* Replacement */
+.validation {
+  background: linear-gradient(#040620, #021186);
+  border-top: 8px solid white;
+  box-shadow: 0px 0px 30px blue;
+}
+
+.replacement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15%;
+}
+
+.replacement p {
+  color: white;
+  font-family: "DINPRO-REGULAR", sans-serif;
+  text-align: center;
+}
+
+.replacement img {
+  width: 300px;
+  z-index: 0;
+  position: relative;
+}
+
+span {
+  font-family: "DINPRO-BOLD", sans-serif;
+  font-weight: bolder;
+}
+
+.p2 {
+  background: linear-gradient(#040620, #021186);
+  width: 50%;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0px 30px 30px -30px blue, 0px -30px 30px -30px blue;
+}
+
+#p2 {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-shadow: 0px 10px 10px -10px blue, 0px -10px 10px -10px blue;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(#040620, #021186);
+  border-top: 8px solid white;
+  box-shadow: 0px 0px 30px blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+.location img,
+.social-media img {
+  width: 40px;
+  height: auto;
+}
+
+.location p,
+.social-media p {
+  font-family: "DINPRO-BOLD", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 30px;
+}
+
+.wp,
+.insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
