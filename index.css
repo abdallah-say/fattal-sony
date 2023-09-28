@@ -657,13 +657,17 @@ span {
     border-top: 5px solid white;
     display: flex;
     flex-direction: row;
+    min-height: 40px;
+    border-top: 5px solid white;
+
+    box-shadow: 0px 0px 10px blue;
   }
   .location {
     padding: 0;
   }
   .location img,
   .social-media img {
-    width: 30px;
+    width: 15px;
   }
   .location p,
   .social-media p {
