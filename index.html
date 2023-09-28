@@ -103,7 +103,13 @@
                   <div>
                     <input id="serial" type="text" placeholder="" />
                     <br />
-                    <a>NEED HELP FINDING YOUR SERIAL NUMBER?</a>
+                    <a id="helpLink">NEED HELP FINDING YOUR SERIAL NUMBER?</a>
+                  </div>
+                </div>
+                <div class="popup-container" id="serialPopup">
+                  <div class="popup-content">
+                    <span class="popup-close" id="popup-close">&times;</span>
+                    <img src="images/help.png" alt="" />
                   </div>
                 </div>
                 <div class="btn"><button type="submit">VALIDATE</button></div>
@@ -168,6 +174,22 @@
         longer).
       </p>
     </div>
+    <!-- JavaScript -->
+    <script>
+      // JavaScript for the popup
+      const helpLink = document.getElementById("helpLink");
+      const serialPopup = document.getElementById("serialPopup");
+      const popupClose = document.getElementById("popup-close");
+
+      helpLink.addEventListener("click", function () {
+        event.preventDefault();
+        serialPopup.style.display = "block";
+      });
+
+      popupClose.addEventListener("click", function () {
+        serialPopup.style.display = "none";
+      });
+    </script>
   </body>
   <footer>
     <div class="footer">
