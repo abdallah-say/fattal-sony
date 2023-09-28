@@ -671,11 +671,11 @@ span {
     padding: 5%;
     border-bottom: 5px white solid;
     border-top: 5px white solid;
-    box-shadow: 0px -25px 20px -20px rgb(36, 32, 252),
-      0px 25px 20px -20px rgb(36, 32, 252),
+    box-shadow: 0px -20px 15px -15px rgb(36, 32, 252),
+      0px 20px 15px -15px rgb(36, 32, 252),
       0 0 1.3rem #135dfe,
-      inset 0px 11px 8px -10px #135dfe,
-      inset 0px -11px 8px -10px #1365fe;
+      inset 0px 7px 4px -5px #135dfe,
+      inset 0px -7px 4px -5px #1365fe;
   }
 
   .fig-section figcaption {
