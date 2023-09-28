@@ -369,8 +369,8 @@ span {
   border-bottom: 8px white solid;
   border-top: 8px white solid;
   box-shadow: 0px -25px 20px -20px rgb(36, 32, 252),
-    0px 25px 20px -20px rgb(36, 32, 252), 0 0 1.3rem #135dfe, inset 0px 11px 8px -10px #135dfe,
-    inset 0px -11px 8px -10px #1365fe;
+    0px 25px 20px -20px rgb(36, 32, 252), 0 0 1.3rem #135dfe,
+    inset 0px 11px 8px -10px #135dfe, inset 0px -11px 8px -10px #1365fe;
 }
 
 .fig-section {
@@ -562,7 +562,7 @@ span {
     scale: 0.45;
     z-index: 5;
     position: absolute;
-    left: 19%;
+    left: 12%;
     margin-top: 5%;
   }
 
@@ -615,12 +615,6 @@ span {
     height: 25px;
   }
 
-  /* .brand,
-  .serial {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  } */
   .brand,
   .serial {
     display: grid;
@@ -671,11 +665,9 @@ span {
     padding: 5%;
     border-bottom: 5px white solid;
     border-top: 5px white solid;
-    box-shadow: 0px -20px 15px -15px rgb(36, 32, 252),
-      0px 20px 15px -15px rgb(36, 32, 252),
-      0 0 1.3rem #135dfe,
-      inset 0px 7px 4px -5px #135dfe,
-      inset 0px -7px 4px -5px #1365fe;
+    box-shadow: 0px -5px 1px -5px rgb(36, 32, 252),
+      0px 5px 1px -5px rgb(36, 32, 252), 0 0 1.3rem #135dfe,
+      inset 0px 11px 8px -10px #135dfe, inset 0px -11px 8px -10px #1365fe;
   }
 
   .fig-section figcaption {
