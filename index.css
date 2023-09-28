@@ -2,12 +2,14 @@
   padding: 0;
   margin: 0;
 }
+
 :root {
   --neon: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1317fe, 0 0 0.8rem blue,
     0 0 2.8rem #1365fe, inset 0 0 1.3rem #135dfe;
   --neon2: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.8rem blue,
     inset 0 0 1.3rem #135dfe;
 }
+
 /* upper banner */
 .banners-container {
   display: flex;
@@ -247,12 +249,15 @@ span {
 .f1-content form label {
   font-family: DINPRO-REGULAR, sans-serif;
 }
+
 .f1-content form select {
   font-family: DINPRO-REGULAR, sans-serif;
 }
+
 .f1-content form input {
   font-family: DINPRO-REGULAR, sans-serif;
 }
+
 #brand-menu,
 #category-menu,
 #serial {
@@ -277,16 +282,19 @@ span {
   display: flex;
   justify-content: space-between;
 }
+
 .serial div {
   display: flex;
   flex-direction: column;
 }
+
 .serial div a {
   font-family: DINPTO-REGULAR, sans-serif;
   color: #021183;
   font-size: 70%;
   font-weight: bold;
 }
+
 .serial a:hover {
   cursor: pointer;
 }
@@ -360,7 +368,9 @@ span {
   padding: 5%;
   border-bottom: 8px white solid;
   border-top: 8px white solid;
-  box-shadow: var(--neon2);
+  box-shadow: 0px -25px 20px -20px rgb(36, 32, 252),
+    0px 25px 20px -20px rgb(36, 32, 252), 0 0 1.3rem #135dfe, inset 0px 11px 8px -10px #135dfe,
+    inset 0px -11px 8px -10px #1365fe;
 }
 
 .fig-section {
@@ -483,9 +493,11 @@ span {
     width: 45%;
     height: auto;
   }
+
   .buttons {
     gap: 0;
   }
+
   .buttons figcaption {
     font-size: 50%;
   }
@@ -497,14 +509,17 @@ span {
     justify-content: center;
     align-items: center;
   }
+
   .validation {
     border-top: 5px solid white;
   }
+
   .p1,
   #p2 {
     font-size: 80%;
     text-align: center;
   }
+
   .p2 {
     width: 90%;
     height: 10%;
@@ -521,13 +536,16 @@ span {
     top: -85%;
     left: -10%;
   }
+
   #p2 {
     padding-top: 10%;
     padding-bottom: 10%;
   }
+
   #terms {
     font-size: 70%;
   }
+
   .scan {
     gap: 0%;
     width: 80%;
@@ -536,6 +554,7 @@ span {
     border-top: 2px solid white;
     border-bottom: 2px solid white;
   }
+
   .scan .img {
     background-image: url("images/PS5-box-mob.png");
     background-repeat: no-repeat;
@@ -546,19 +565,23 @@ span {
     left: 19%;
     margin-top: 5%;
   }
+
   .scan-txt p {
     width: 100%;
     font-size: 100%;
     padding-left: 5%;
   }
+
   .warranty-form p {
     font-size: 100%;
   }
+
   .f1-content {
     margin-top: 5%;
     border: 2px white solid;
     width: 90%;
   }
+
   .shadow {
     display: flex;
     flex-direction: column-reverse;
@@ -566,16 +589,20 @@ span {
     padding-top: 15%;
     padding-bottom: 15%;
   }
+
   .f1-txt {
     width: 100%;
   }
+
   .f1-content form {
     gap: 15px;
     width: 100%;
   }
+
   .f1-content form label {
     font-size: 85%;
   }
+
   #brand-menu,
   #category-menu,
   #serial {
@@ -587,6 +614,7 @@ span {
     width: 100%;
     height: 25px;
   }
+
   /* .brand,
   .serial {
     width: 100%;
@@ -599,6 +627,7 @@ span {
     gap: 1rem;
     grid-template-columns: 1fr 2fr;
   }
+
   .serial div {
     display: flex;
     gap: 2px;
@@ -611,6 +640,7 @@ span {
     font-size: 60%;
     font-weight: bold;
   }
+
   .btn {
     width: 90%;
   }
@@ -622,15 +652,18 @@ span {
     border: none;
     border-radius: 5px;
   }
+
   .popup-container {
     width: 100%;
     height: 100%;
   }
+
   .popup-content img {
     width: 80%;
     height: 80%;
     margin-top: 50%;
   }
+
   /* Purchase */
   .purchase {
     background-size: 100% 100%;
@@ -638,20 +671,30 @@ span {
     padding: 5%;
     border-bottom: 5px white solid;
     border-top: 5px white solid;
+    box-shadow: 0px -25px 20px -20px rgb(36, 32, 252),
+      0px 25px 20px -20px rgb(36, 32, 252),
+      0 0 1.3rem #135dfe,
+      inset 0px 11px 8px -10px #135dfe,
+      inset 0px -11px 8px -10px #1365fe;
   }
+
   .fig-section figcaption {
     font-size: 80%;
   }
+
   .tnc-content {
     display: flex;
     flex-direction: column;
   }
+
   .tnc #title {
     font-size: 100%;
   }
+
   .tnc p {
     font-size: 80%;
   }
+
   /* Footer */
   .footer {
     border-top: 5px solid white;
@@ -662,13 +705,16 @@ span {
 
     box-shadow: 0px 0px 10px blue;
   }
+
   .location {
     padding: 0;
   }
+
   .location img,
   .social-media img {
     width: 15px;
   }
+
   .location p,
   .social-media p {
     font-size: 7px;
