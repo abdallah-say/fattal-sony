@@ -2,14 +2,9 @@
   padding: 0;
   margin: 0;
 }
-:root{
-  --neon:
-  0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  0 0 2rem #1317fe,
-  0 0 0.8rem #13b4fe,
-  0 0 2.8rem #1365fe,
-  inset 0 0 1.3rem #135dfe;
+:root {
+  --neon: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #1317fe, 0 0 0.8rem #13b4fe,
+    0 0 2.8rem #1365fe, inset 0 0 1.3rem #135dfe;
 }
 /* upper banner */
 .banners-container {
@@ -258,15 +253,60 @@ span {
 #serial {
   width: 320px;
   height: 25px;
-  border:none;
-  box-shadow:  1px 1px 1px 1px #eee;
+  border: none;
+  box-shadow: 1px 1px 1px 1px #eee;
+  transition: all 0.3s ease-in-out;
 }
 
-.brand{
+#brand-menu:focus,
+#category-menu:focus,
+#serial:focus {
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  border: 1px #021183 solid;
+}
+
+.brand,
+.serial {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
+.serial a {
+  font-family: DINPTO-REGULAR, sans-serif;
+  color: #021183;
+  font-size: 70%;
+  font-weight: bold;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.btn button {
+  font-family: DINPRO-REGULAR, sans-serif;
+  font-size: 80%;
+  width: 15%;
+  height: 200%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #021183;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn button:hover {
+  background-color: white;
+  color: #021183;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 5px #021183;
+  transition: all 0.3s ease-in-out;
+}
+
 /* Footer */
 .footer {
   background: linear-gradient(#040620, #021186);
@@ -314,7 +354,6 @@ span {
   justify-content: center;
   align-items: center;
 }
-
 
 /* 
 
