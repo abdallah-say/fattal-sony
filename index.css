@@ -311,7 +311,7 @@ span {
 
 /* Purchase */
 .purchase {
-  background-image: url("images/PSshop.jpg");
+  background-image: url("./images/PSshop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5%;
