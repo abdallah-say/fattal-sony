@@ -277,7 +277,10 @@ span {
   display: flex;
   justify-content: space-between;
 }
-
+.serial div{
+  display: flex;
+  flex-direction: column;
+}
 .serial div a {
   font-family: DINPTO-REGULAR, sans-serif;
   color: #021183;
@@ -577,19 +580,35 @@ span {
   #brand-menu,
   #category-menu,
   #serial {
-    width: 70%;
+    width: 100%;
     height: 25px;
   }
+  
   #serial {
-    width: 70%;
+    width: 100%;
     height: 25px;
   }
-  .brand,
+  /* .brand,
   .serial {
     width: 100%;
     display: flex;
     justify-content: space-between;
+  } */
+  .brand,
+  .serial{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
   }
+  .serial div{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: right;
+  }
+
+  
   .serial div a {
     font-size: 60%;
     font-weight: bold;
